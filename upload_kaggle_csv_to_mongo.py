@@ -4,13 +4,13 @@ from pymongo import MongoClient
 import os
 
 # MongoDB Connection
-db_username = 'Ray_Lin'
-db_password = '040421ray'
-connection_uri = f"mongodb+srv://{db_username}:{db_password}@cs452.j8bsm.mongodb.net/?retryWrites=true&w=majority&appName=cs452"
+db_username = 'peterhu4000'
+db_password = 'D4mnNvBXwXtAlzbc'
+connection_uri = f'mongodb+srv://{db_username}:{db_password}@cs452.llxgy.mongodb.net/?retryWrites=true&w=majority&appName=cs452'
 client = MongoClient(connection_uri)
 
 # Database Name
-db_name = "NBA"
+db_name = "NBABASKETBALL"
 db = client[db_name]
 
 # Step 1: Test MongoDB connection
